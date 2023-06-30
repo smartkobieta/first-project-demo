@@ -6,79 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/first-project-demo/assets/index-c45ada6b.js"></script>
-    <link rel="stylesheet" href="/first-project-demo/assets/index-10c40100.css">
+    <script type="module" crossorigin src="/first-project-demo/assets/index-f1c642f6.js"></script>
+    <link rel="stylesheet" href="/first-project-demo/assets/index-ed5ae759.css">
   </head>
   <body>
     <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+  <div class="container header-container">
+    <nav class="header-navigation">
+      <a href="./index.html" class="header-logo link">WEB<span>Studio</span></a>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-
-
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/first-project-demo/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
+      <ul class="header-menu list">
+        <li class="header-menu-item">
+          <a class="header-menu-link current link" href="./index.html"
+            >Studio</a
           >
         </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
+        <li class="header-menu-item">
+          <a class="header-menu-link link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link link" href="">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!----------------------ADRESS---------------------------------->
+    <address class="address">
+      <ul class="header-adr list">
+        <li class="header-menu">
+          <a class="adres-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="header-menu">
+          <a class="adres-link link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
           >
         </li>
       </ul>
-    </div>
+    </address>
+  </div>
+</header>
 
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
-      <img
-        class="pic"
-        src="/first-project-demo/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
-    </div>
+    <main>
+      <section class="hero">
+  <div class="container container-titlo">
+    <h1 class="hero-titlo">Effective Solutions for Your Business</h1>
+    <button type="button" class="hero-btn" data-modal-open>
+      Order Service
+    </button>
   </div>
 </section>
 
+    </main>
+    <footer class="footer-bgr">
+  <div class="container footer-cont">
+    <a class="footer link" href="./index.html"
+      >Web<span class="footer-logo">Studio</span></a
+    >
+    <p class="footer-text">
+      Increase the flow of customers and sales for your business with digital
+      marketing & growth solutions.
+    </p>
+  </div>
+</footer>
 
     
   </body>
