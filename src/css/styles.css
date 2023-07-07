@@ -8,16 +8,20 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./sections/sections-hero.css');
+@import url('./sections/sections-how-it-works.css');
+@import url('./sections/sections-vegetables.css');
+@import url('./sections/sections-we-will-call-you.css');
 @import url('./footer.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
   font-weight: 400;
+  font-style: normal;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: #141414;
+  background-color: rgba(255, 255, 255, 1);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
