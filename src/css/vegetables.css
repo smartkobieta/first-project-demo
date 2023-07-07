@@ -1,0 +1,53 @@
+.vegatables {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.vegatables-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.conntainer {}
+
+.vegetables-title {
+    color: #141414;
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: -0.96px;
+}
+
+.vegatables-paragraph {
+    color: #141414;
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+}
+
+.vegatables-list {
+    list-style: none;
+}
+
+.vegatables-list-item {
+    background-color: #EAF7E5;
+}
+
+.vegatables-list-title {}
+
+.vegatables-list-paragraph {}
+
+.vegatables-image {}
+
+.vegatables-list-price {}
+
+.vegatables-button {}
