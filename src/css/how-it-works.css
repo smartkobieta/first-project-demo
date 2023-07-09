@@ -1,0 +1,159 @@
+.buy-guide {
+  min-width: 295px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  border-radius: 40px;
+  background-color: var(--background-secondary-color);
+  margin: 0 auto;
+  background-image: radial-gradient(
+    rgba(161, 196, 135, 0.2) 5.03px,
+    transparent 0
+  );
+  background-size: 45.46px 45.2px;
+  background-position: -14px -14px;
+}
+
+.buy-guide-title {
+  width: 100%;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.buy-guide-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: item;
+}
+
+.buy-guide-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 275px;
+}
+
+.buy-guide-item:last-child {
+  margin-bottom: 20px;
+}
+
+.buy-guide-item::before {
+  content: counter(item);
+  counter-increment: item;
+  background-color: var(--background-dark-color);
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  border-radius: 50%;
+  width: 40px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 14px;
+}
+
+.buy-guide-text {
+  display: inline-block;
+  width: 176px;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+}
+
+.unique-size {
+  max-width: 166px;
+}
+
+.buy-guide-image {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 375px) {
+  .buy-guide {
+    max-width: 295px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .buy-guide {
+    max-width: 664px;
+    padding-left: 0;
+    padding-right: 40px;
+    border-radius: 80px;
+  }
+
+  .buy-guide-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+  }
+
+  .buy-guide-title {
+    margin-bottom: 0;
+    width: 274px;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+  }
+
+  .buy-guide-item::before {
+    width: 46px;
+    height: 44px;
+  }
+
+  .steps-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .buy-guide-image {
+    height: 446px;
+    width: 350px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .buy-guide {
+    max-width: 1056px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .buy-guide-container {
+    gap: 110px;
+  }
+
+  .steps-container {
+    gap: 44px;
+  }
+
+  .buy-guide-title {
+    width: 512px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .buy-guide-text {
+    width: 289px;
+  }
+
+  .buy-guide-item {
+    width: 349px;
+  }
+
+  .buy-guide-image {
+    height: 420px;
+    width: 434px;
+  }
+}
