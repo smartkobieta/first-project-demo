@@ -12,6 +12,10 @@
   }
 }
 
+.mobile-menu-open {
+  border: none;
+}
+
 .header-menu-open-icon p:last-child {
   margin-bottom: 0;
 }
