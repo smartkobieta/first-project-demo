@@ -244,4 +244,8 @@
   .wrapper {
     display: flex;
   }
+  .hero-img {
+    position: absolute;
+    top: 165px;
+  }
 }
