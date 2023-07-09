@@ -13,6 +13,7 @@
 }
 
 .mobile-menu-open {
+  background: transparent;
   border: none;
 }
 
@@ -21,7 +22,7 @@
 }
 
 .header-menu-open-icon {
-  color: var(--logo-color);
+  fill: #77ac63;
 }
 
 .header-container {
@@ -106,10 +107,6 @@
     letter-spacing: -0.56px;
     padding-top: 16px;
     padding-bottom: 16px;
-  }
-
-  .mobile-menu-open {
-    display: none;
   }
 
   .desktop-menu-open-icon {
