@@ -20,31 +20,6 @@
   color: var(--logo-color);
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.list {
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 @font-face {
   font-family: DM Sans, sans-serif;
   src: url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
