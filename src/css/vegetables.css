@@ -73,6 +73,7 @@
 min-height: 249px; */
 display: flex;
 justify-content: center;
+margin-bottom: 22px;
 }
 
 .vegatables-image {
@@ -87,7 +88,7 @@ justify-content: center;
     font-family: DM Sans, sans-serif;
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.28;
+    line-height: 18px;
     letter-spacing: -0.56px;
 }
 
