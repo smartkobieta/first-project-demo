@@ -68,3 +68,7 @@ body {
   color: var(--main-text-color);
   background-color: #ffffff;
 }
+
+html {
+  scroll-behavior: smooth;
+}
