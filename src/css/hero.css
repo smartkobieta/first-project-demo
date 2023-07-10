@@ -5,8 +5,8 @@
 }
 .hero-container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin: 0 auto;
 }
 .reviews-list {
@@ -132,16 +132,19 @@
 @media screen and (min-width: 375px) {
   .hero-container {
     max-width: 375px;
+    
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero-container {
     max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
   .hero {
     margin-bottom: 100px;
-    padding: 66px 32px;
+    padding: 66px 0 32px 0;
   }
   .reviews-list {
     margin-bottom: 16px;
@@ -196,7 +199,6 @@
   }
   .hero {
     margin-bottom: 124px;
-    padding: 133px 32px;
   }
   .reviews-item {
     width: 70px;
@@ -214,6 +216,15 @@
     font-size: 24px;
     line-height: 1;
   }
+  .reviews-item:nth-child(2) {
+    transform: translateX(-25px);
+  }
+  .reviews-item:nth-child(3) {
+    transform: translateX(-50px);
+  }
+  .reviews-item:last-child {
+    transform: translateX(-75px);
+  }
   .hero-title {
     font-size: 64px;
     line-height: 1.17;
@@ -224,19 +235,16 @@
     line-height: 1;
     width: 132px;
     height: 132px;
-    margin-bottom: 0;
+    margin-bottom: 8px;
   }
   .hashtag-container {
     max-width: 266px;
-    margin-top: 64px;
   }
   .hashtag-item {
     padding: 12px 32px;
   }
 
   .hero-wrapper {
-    display: flex;
-    flex-direction: column;
   }
   .hero-container-img {
     margin-bottom: 0;
@@ -246,6 +254,6 @@
   }
   .hero-img {
     position: absolute;
-    top: 165px;
+    top: 100px;
   }
 }
