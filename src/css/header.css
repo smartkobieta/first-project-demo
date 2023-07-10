@@ -15,14 +15,15 @@
 .mobile-menu-open {
   background: transparent;
   border: none;
+  padding: 0px;
+}
+
+.header-menu-open-icon {
+  fill: var(--logo-color);
 }
 
 .header-menu-open-icon p:last-child {
   margin-bottom: 0;
-}
-
-.header-menu-open-icon {
-  fill: #77ac63;
 }
 
 .header-container {
