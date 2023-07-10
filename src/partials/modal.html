@@ -1,21 +1,74 @@
 <div class="modal" data-modal>
-    <!-- <div class="order-container"> -->
-    <p class="modal-tittle">YOUR ORDER</p>
-    <button type="button" class="close-modal-button" data-modal-close>
-        <svg class="close-modal-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-close"></use>
-        </svg>
-    </button>
-    <!-- </div> -->
-    <form action="">
-        <div>
-            <p>Cabbage Basket</p>
-            <span>Plant</span>
-            <picture>
-                <source srcset="./img/cabbage@2x.png 2x, ./img/cabbage@1x.png 1x" />
-                <img src="../img/cabbage@1x.png" alt="cabbage" />
-            </picture>
-            <input type="checkbox" class="input" />
+    <div class="order-container">
+        <h2 class="modal-tittle">YOUR ORDER</h2>
+        <button type="button" class="close-modal-button" data-modal-close>
+            <svg class="close-modal-icon" width="24" height="24">
+                <use href="../img/icons.svg#close-modal"></use>
+            </svg>
+        </button>
+    </div>
+    <form>
+        <div class="modal-products">
+            <ul class="modal-products-list">
+                <li class="modal-products-item">
+                    <h3 class="modal-products-tittle">Cabbage Basket</h3>
+                    <p class="modal-products-text">Plant</p>
+                    <picture class="picture">
+                        <source srcset="./img/cabbage@2x.png 2x, ./img/cabbage@1x.png 1x" />
+                        <img class="modal-img" src="../img/cabbage@1x.png" alt="cabbage" />
+                    </picture>
+                    <div class="input-wrap">
+                        <input type="checkbox" class="input visually-hidden" name="cabbage" id="cabbage" checked />
+                        <label for="cabbage" class="modal-label">
+                            <span class="input-checkbox-svg">
+                                <svg width="16px" height="16px" class="modal-products-svg">
+                                    <use href="../img/icons.svg#icon-checked"></use>
+
+                                </svg>
+                            </span>
+                        </label>
+                    </div>
+                </li>
+                <li class="modal-products-item">
+                    <h3 class="modal-products-tittle">Tomato Basket</h3>
+                    <p class="modal-products-text">Plant</p>
+                    <picture class="picture">
+                        <source srcset="../img/tomatoTomato-Basket@2x.png 2x, ../img/tomatoTomato-Basket@1x.png 1x," />
+                        <img class="modal-products-picture" src="../img/tomatoTomato-Basket@1x.png" alt="cabbage" />
+                    </picture>
+                    <div class="input-wrap">
+                        <input type="checkbox" class="input visually-hidden" value="true" id="tomato" name="tomato" />
+                        <label for="tomato" class="modal-label">
+                            <span>
+                                <svg width="16px" height="16px" class="modal-products-svg">
+                                    <use href="../img/icons.svg#icon-checked"></use>
+
+                                </svg>
+                            </span>
+
+                        </label>
+                    </div>
+                </li>
+                <li class="modal-products-item">
+                    <h3 class="modal-products-tittle">Vegetables Basket</h3>
+                    <p class="modal-products-text">Plant</p>
+                    <picture class="picture">
+                        <source srcset="../img/vegetables-basket@2x.png 2x, ../img/vegetables-basket@1x.png  1x" />
+                        <img src="../img/vegetables-basket@1x.png" alt="cabbage" />
+                    </picture>
+                    <div class="input-wrap">
+                        <input type="checkbox" class="input visually-hidden" id="veg-basket" name="veg-basket" />
+                        <label for="veg-basket" class="modal-label">
+                            <span>
+                                <svg width="16px" height="16px" class="modal-products-svg">
+                                    <use href="../img/icons.svg#icon-checked"></use>
+
+                                </svg>
+                            </span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
         </div>
         <div class="modal-wrap">
             <div class="modal-field">
@@ -40,4 +93,5 @@
         </div>
         <button class="modal-btn" type="submit">Submit</button>
     </form>
+    <img src="../img/img-girl@1x.jpg" alt="img-girl">
 </div>
