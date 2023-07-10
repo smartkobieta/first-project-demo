@@ -3,13 +3,19 @@
   /* margin-bottom: 812px; */
   position: relative;
   z-index: 1;
+  /* position: fixed;
+  width: 100%; */
 }
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-
+/* .is-open {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+} */
 .mob-menu {
   /* min-width: 428px; */
   display: flex;
@@ -45,7 +51,6 @@
 .open-menu-btn {
   background: transparent;
   border: none;
-
   padding: 0%;
   /*  */
   position: absolute;
@@ -54,7 +59,6 @@
 .mob-menu-burg-ico {
   fill: #77ac63;
 }
-
 .mob-menu-ico-close {
   stroke: #77ac63;
 }
