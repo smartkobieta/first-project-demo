@@ -75,12 +75,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  .site-nav {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 768px) {
   .mobile-menu-open {
     background: transparent;
     border: none;
@@ -91,6 +85,12 @@
     fill: var(--logo-color);
   }
 
+  .site-nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .site-nav {
     display: flex;
     gap: 14px;
