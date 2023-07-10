@@ -54,7 +54,7 @@
   margin-bottom: 40px;
 }
 .modal-products-list {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
@@ -85,6 +85,10 @@
   position: absolute;
   top: 33px;
   right: 30px;
+}
+.modal-img {
+  max-width: 94px;
+  min-height: 78px;
 }
 .modal-products-text {
   color: #141414;
@@ -161,6 +165,10 @@
   line-height: 18px;
   letter-spacing: -0.56px;
 }
+.modal-comment-wrap {
+  margin-bottom: 20px;
+  height: 132px;
+}
 .modal-btn {
   display: flex;
   padding: 12px 24px;
@@ -177,4 +185,87 @@
   letter-spacing: -0.56px;
   text-transform: capitalize;
   border: #fc8a11;
+}
+/* Media */
+@media screen and (min-width: 375px) {
+  .modal {
+    width: 335px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 704px;
+    min-height: 853px;
+    padding: 40px;
+  }
+  .modal-tittle {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+  }
+  .close-modal-button {
+    margin-top: -30px;
+  }
+  .close-modal-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .modal-products-list {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0;
+  }
+  .modal-products-item {
+    max-width: 200px;
+    min-height: 250px;
+  }
+  .modal-products-tittle {
+    margin-top: 40px;
+  }
+  .picture {
+    bottom: 14px;
+    right: 14px;
+    left: 14px;
+    top: 94;
+  }
+  .modal-img {
+    max-width: 172px;
+    min-height: 142px;
+    padding-top: 61px;
+  }
+  .modal-products-svg {
+    width: 20px;
+    height: 20px;
+  }
+  .modal-input {
+    width: 360px;
+  }
+  .modal-comment {
+    width: 360px;
+  }
+  .modal-comment-wrap {
+    height: 145px;
+  }
+  .modal-btn {
+    padding: 15px 35px;
+  }
+  .picture-girl {
+    visibility: visible;
+    position: absolute;
+    right: -154px;
+    width: 444px;
+    height: 413px;
+    top: 450px;
+    object-fit: cover;
+  }
+  .image-container {
+    position: absolute;
+    right: -154px;
+    width: 290px;
+    height: 403px;
+    top: 450px;
+    overflow: hidden;
+  }
 }
