@@ -14,6 +14,7 @@
 
 .vegetables-title {
     width: 100%;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
     color: var(--main-text-color);
     text-align: center;
     font-family: DM Sans, sans-serif;
@@ -148,23 +149,62 @@
     padding: 0 32px;
 }
 
+.vegetables-title{
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+}
+
+.vegatables-paragraph{
+    max-width: 562px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+}
+
 .vegatables-list{
     width: unset;
 }
 
+.card{
+    margin-bottom: 32px;
+}
+
 .vegatables-list-item{
     width: calc((100% - 20px) /2);
+    padding: 64px 24px 24px 24px;
 }
 .vegatables-button{
     width: 114px;
     height: 114px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.72px;
 }
+
+.vegatables-list-price{
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+}
+
 }
 
 @media screen and (min-width: 1280px) {
 .vegatables-container {
     max-width: 1280px;
     }
+
+.vegetables-title{
+    font-size: 40px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: -1.6px;
+}
+
+.vegatables-paragraph{
+    letter-spacing: -0.36px;
+}
 
 .vegatables-list-item{
     width: calc((100% - 40px) /3);
