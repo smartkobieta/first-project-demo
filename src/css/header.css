@@ -1,3 +1,4 @@
+/**---------HEADER--------**/
 .header-container {
   height: 50px;
   padding-top: 16px;
@@ -12,6 +13,12 @@
   display: flex;
   align-items: center;
 }
+
+.link {
+  text-decoration: none;
+}
+
+/**?--------LOGO------------*/
 
 .logo {
   display: flex;
@@ -28,26 +35,54 @@
   color: var(--main-text-color);
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.28;
+  line-height: 1.29;
   letter-spacing: -0.04em;
   text-transform: uppercase;
+}
+
+.site-item {
+  color: var(--main-text-color);
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+}
+
+.mobile-menu-open {
+  border: none;
+}
+
+.header-menu-open-icon p:last-child {
+  margin-bottom: 0;
+}
+
+.header-menu-open-icon {
+  color: var(--logo-color);
 }
 
 .desktop-menu-order {
   display: none;
 }
 
-.desktop-menu-open_icon {
+.desktop-menu-open-icon {
   fill: var(--white-text-color);
 }
 
 @media screen and (max-width: 767px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .site-nav {
     display: none;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
   .site-nav {
     display: flex;
     gap: 14px;
@@ -71,7 +106,7 @@
     display: none;
   }
 
-  .desktop-menu-open_icon {
+  .desktop-menu-open-icon {
     stroke: var(--main-text-color);
   }
 
@@ -109,7 +144,7 @@
     color: var(--background-dark-color);
   }
 
-  .desktop-menu-open_icon {
+  .desktop-menu-open-icon {
     width: 24px;
     height: 24px;
   }
@@ -118,12 +153,12 @@
     height: 24px;
   }
 
-  .desktop-menu-open_icon:hover,
-  .desktop-menu-open_icon:focus {
+  .desktop-menu-open-icon:hover,
+  .desktop-menu-open-icon:focus {
     stroke: var(--background-dark-color);
   }
 
-  .desktop-menu-open_icon {
+  .desktop-menu-open-icon {
     transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
