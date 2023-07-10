@@ -1,29 +1,4 @@
-@media screen and (max-width: 767px) {
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-.mobile-menu-open {
-  border: none;
-}
-
-.header-menu-open-icon p:last-child {
-  margin-bottom: 0;
-}
-
-.header-menu-open-icon {
-  color: var(--logo-color);
-}
-
+/**---------HEADER--------**/
 .header-container {
   height: 50px;
   padding-top: 16px;
@@ -43,6 +18,8 @@
   text-decoration: none;
 }
 
+/**?--------LOGO------------*/
+
 .logo {
   display: flex;
   gap: 8px;
@@ -58,24 +35,33 @@
   color: var(--main-text-color);
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.28;
+  line-height: 1.29;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-}
-
-.desktop-menu-order {
-  display: none;
 }
 
 .site-item {
   color: var(--main-text-color);
   text-align: center;
   font-size: 14px;
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.56px;
+}
+
+.mobile-menu-open {
+  border: none;
+}
+
+.header-menu-open-icon p:last-child {
+  margin-bottom: 0;
+}
+
+.header-menu-open-icon {
+  color: var(--logo-color);
+}
+
+.desktop-menu-order {
+  display: none;
 }
 
 .desktop-menu-open-icon {
@@ -83,12 +69,20 @@
 }
 
 @media screen and (max-width: 767px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .site-nav {
     display: none;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
   .site-nav {
     display: flex;
     gap: 14px;
