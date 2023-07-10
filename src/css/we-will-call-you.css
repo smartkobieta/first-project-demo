@@ -1,4 +1,4 @@
-.container {
+.call-container {
     max-width: 335px;
     padding: 0 20px;
 }
@@ -121,7 +121,7 @@
 
 
 @media screen and (min-width: 768px) {
-    .container {
+    .call-container {
         margin-bottom: 173px;
     }
 
@@ -251,7 +251,8 @@
         }
 
         .call-section {
-            padding-bottom: 124px;
+            /* padding-bottom: 124px; */
+            padding-bottom: 200px;
         }
     
 }
