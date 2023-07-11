@@ -1,6 +1,6 @@
 .call-container {
     max-width: 335px;
-    padding: 0 20px;
+    
 }
 
 
@@ -39,9 +39,6 @@
     margin-top: 40px;
 }
 
-/* p {
-    margin: 0;
-} */
 
 .call-input {
     font-family: DM Sans;
@@ -79,10 +76,9 @@
     background: #FAF3E7;
     content: "";
     position: absolute;
-    background-image: radial-gradient(circle at 30px 20px, rgba(161, 196, 135, 0.69) 5px, transparent 0);
-    background-repeat: repeat;
-    background-size: contain;
-    background-size: 60px 60px;
+background-image: radial-gradient(rgba(161, 196, 135, .2) 3.03px, transparent 0);
+    background-size: 45.46px 45.2px;
+    background-position: -14px -14px;
 }
 
 
@@ -105,17 +101,32 @@
 
     .call-paragraph {
         margin-left: 14px;
+        width: 290px;
+            margin-top: 15px;
     }
 
     .call-tab-img {
         display: none;
     }
+
+    
 }
 
 @media screen and (max-width: 768px) {
     .call-tab-img {
         display: none;
+        margin-left: 20px;
     }
+
+    .call-paragraph {
+        margin-top: 20px;
+    }
+
+    .call-form {
+        margin-left: 20px;
+    }
+
+
 
 }
 
@@ -127,10 +138,13 @@
 
     .call-title {
         width: 524px;
+        margin-left: 122px;
     }
 
     .call-paragraph {
         width: 499px;
+        margin-top: 20px;
+        margin-left: 134.5px;
     }
 
     .call-input {
@@ -142,15 +156,16 @@
     }
 
     .call-tab-img {
+        width: 704px;
+        height: 463px;
         display: flex;
         border-radius: 40px;
         background: #FAF3E7;
         content: "";
         position: absolute;
-        background-image: radial-gradient(circle at 30px 20px, rgba(161, 196, 135, 0.69) 5px, transparent 0);
-        background-repeat: repeat;
-        background-size: contain;
-        background-size: 60px 60px;
+        background-image: radial-gradient(rgba(161, 196, 135, .2) 3.03px, transparent 0);
+            background-size: 45.46px 45.2px;
+            background-position: -14px -14px;
         align-items: center;
     }
 
@@ -189,10 +204,14 @@
         letter-spacing: -1.92px;
         margin-left: 32px;
         text-align: left;
+        margin-top: 0;
+        margin-top: 99px;
     }
 
     .call-paragraph {
         margin-left: 32px;
+        margin-top: 40px;
+        text-align: left;
     }
     
     .call-dec-img {
@@ -201,12 +220,12 @@
         background: #FAF3E7;
         content: "";
         position: absolute;
-        background-image: radial-gradient(circle at 30px 20px, rgba(161, 196, 135, 0.69) 5px, transparent 0);
-        background-repeat: repeat;
-        background-size: contain;
-        background-size: 60px 60px;
+        background-image: radial-gradient(rgba(161, 196, 135, .2) 3.03px, transparent 0);
+            background-size: 45.46px 45.2px;
+            background-position: -14px -14px;
         align-items: center;
         margin-left: 723px;
+        /* position: relative; */
     }
 
         .call-tab-img {
@@ -250,9 +269,10 @@
                     margin-right: 155px;
         }
 
-        .call-section {
-            /* padding-bottom: 124px; */
+        /* .call-section {
+            padding-bottom: 124px;
             padding-bottom: 200px;
-        }
+        } */
     
-}
+} 
+
