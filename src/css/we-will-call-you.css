@@ -1,6 +1,6 @@
 .call-container {
     max-width: 335px;
-    padding: 0 20px;
+    
 }
 
 
@@ -39,9 +39,6 @@
     margin-top: 40px;
 }
 
-/* p {
-    margin: 0;
-} */
 
 .call-input {
     font-family: DM Sans;
@@ -105,10 +102,16 @@
 
     .call-paragraph {
         margin-left: 14px;
+        width: 290px;
+            margin-top: 15px;
     }
 
     .call-tab-img {
         display: none;
+    }
+
+    .call-form {
+        padding-left: 20px;
     }
 }
 
@@ -189,10 +192,14 @@
         letter-spacing: -1.92px;
         margin-left: 32px;
         text-align: left;
+        margin-top: 0;
+        margin-top: 99px;
     }
 
     .call-paragraph {
         margin-left: 32px;
+        margin-top: 40px;
+        text-align: left;
     }
     
     .call-dec-img {
@@ -207,6 +214,7 @@
         background-size: 60px 60px;
         align-items: center;
         margin-left: 723px;
+        /* position: relative; */
     }
 
         .call-tab-img {
@@ -250,9 +258,10 @@
                     margin-right: 155px;
         }
 
-        .call-section {
-            /* padding-bottom: 124px; */
+        /* .call-section {
+            padding-bottom: 124px;
             padding-bottom: 200px;
-        }
+        } */
     
-}
+} 
+
