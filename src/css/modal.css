@@ -16,11 +16,11 @@
   padding-left: 20px;
   padding-top: 20px;
 }
-/* .modal.is-hidden {
+.modal.is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-} */
+}
 .order-container {
   display: flex;
   justify-content: space-between;
@@ -207,6 +207,7 @@
   }
   .close-modal-button {
     margin-top: -30px;
+    margin-right: -40px;
   }
   .close-modal-icon {
     width: 28px;
@@ -228,7 +229,6 @@
     bottom: 14px;
     right: 14px;
     left: 14px;
-    top: 94;
   }
   .modal-img {
     max-width: 172px;
@@ -253,19 +253,51 @@
   }
   .picture-girl {
     visibility: visible;
-    position: absolute;
-    right: -154px;
     width: 444px;
     height: 413px;
-    top: 450px;
     object-fit: cover;
+    left: 0;
   }
   .image-container {
-    position: absolute;
-    right: -154px;
-    width: 290px;
     height: 403px;
-    top: 450px;
+    width: 290px;
+    position: absolute;
     overflow: hidden;
+    top: 450px;
+    right: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .modal {
+    width: 891px;
+  }
+  .modal-products-item {
+    max-width: 257px;
+    min-height: 308px;
+  }
+  .modal-products-tittle {
+    font-size: 24px;
+    min-height: 28px;
+    width: 176px;
+    margin-bottom: 8px;
+  }
+  .picture {
+    right: 7px;
+    left: 7px;
+  }
+  .modal-img {
+    max-width: 243px;
+    min-height: 200px;
+  }
+  .image-container {
+    top: 475px;
+
+    right: 7px;
+    width: 444px;
+    height: 413px;
+  }
+  .picture-girl {
+    width: 444px;
+    height: 413px;
   }
 }
