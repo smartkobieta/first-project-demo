@@ -20,7 +20,7 @@
 
   <body>
     <!-----HEADER------>
-    ENOENT: no such file or directory, open '/home/runner/work/first-project-demo/first-project-demo/src/partials/header.html'
+    
 
     <main>
       <!-----HERO------>
@@ -459,30 +459,32 @@
     <!-----MOB-MENU------>
     <!-- *** menu-mobile *** -->
 <div class="mob-menu is-hidden" data-menu>
+  <button type="button" class="close-menu-btn" data-menu-close>
+    <svg class="mob-menu-burg-ico" width="8" height="8">
+      <use href="/first-project-demo/assets/icons-a1f4a3d8.svg#icon-close"></use>
+    </svg>
+  </button>
 
-    <button type="button" class="close-menu-btn" data-menu-close>
-        <svg class="mob-menu-burg-ico" width="8" height="8">
-            <use href="../img/icons.svg#icon-close"></use>
+  <ul class="mob-menu-list">
+    <li>
+      <a href="./index.html" class="mob-menu-link">How It Works</a>
+    </li>
+    <li>
+      <a href="#vegetables" class="mob-menu-link">Vegetables</a>
+    </li>
+    <li>
+      <a href="#contacts" class="mob-menu-link">Contacts</a>
+    </li>
+    <li class="mob-menu-link">
+      <a class="korzina-icons" href="#">
+        <svg class="menu-ico-shop" width="24" height="24">
+          <use href="/first-project-demo/assets/icons-a1f4a3d8.svg#icon-shopping"></use>
         </svg>
-    </button>
-
-    <ul class="mob-menu-list">
-        <li>
-            <a href="./index.html" class="mob-menu-link">How It Works</a>
-        </li>
-        <li>
-            <a href="#vegetables" class="mob-menu-link">Vegetables</a>
-        </li>
-        <li>
-            <a href="#contacts" class="mob-menu-link">Contacts</a>
-        </li>
-        <li class="mob-menu-link"> <a class="korzina-icons" href="#"> <svg class="menu-ico-shop" width="24" height="24">
-                    <use href="../img/icons.svg#icon-shopping"></use>
-                </svg></a>
-        </li>
-    </ul>
-    <!-- test ---->
+      </a>
+    </li>
+  </ul>
 </div>
+
 
     <!-----MODAL---------->
     
