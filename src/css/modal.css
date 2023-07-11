@@ -155,6 +155,9 @@
   padding-left: 24px;
   padding-top: 14px;
 }
+.modal-comment:focus .modal-comment:hover {
+  border: #fc8a11;
+}
 .modal-comment::placeholder {
   color: rgba(20, 20, 20, 0.5);
   font-family: DM Sans;
@@ -184,6 +187,10 @@
   letter-spacing: -0.56px;
   text-transform: capitalize;
   border: #fc8a11;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #a1c487;
 }
 /* Media */
 @media screen and (min-width: 375px) {
