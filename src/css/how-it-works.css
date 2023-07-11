@@ -1,5 +1,5 @@
 .buy-guide {
-  min-width: 295px;
+  width: 90%;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
@@ -7,7 +7,7 @@
   background-color: var(--background-secondary-color);
   margin: 0 auto;
   background-image: radial-gradient(
-    rgba(161, 196, 135, 0.2) 5.03px,
+    rgba(161, 196, 135, 0.2) 3.03px,
     transparent 0
   );
   background-size: 45.46px 45.2px;
@@ -78,13 +78,13 @@
 
 @media screen and (min-width: 375px) {
   .buy-guide {
-    max-width: 295px;
+    max-width: 335px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .buy-guide {
-    max-width: 664px;
+    max-width: 704px;
     padding-left: 0;
     padding-right: 40px;
     border-radius: 80px;
@@ -125,7 +125,7 @@
 
 @media screen and (min-width: 1280px) {
   .buy-guide {
-    max-width: 1056px;
+    max-width: 1216px;
     padding-left: 80px;
     padding-right: 80px;
   }
