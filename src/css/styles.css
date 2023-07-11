@@ -8,8 +8,8 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
+@import url('./easy-steps.css');
 @import url('./how-it-works.css');
-@import url('./three-easy-steps.css');
 @import url('./vegetables.css');
 @import url('./we-will-call-you.css');
 @import url('./footer.css');
@@ -27,13 +27,9 @@
   --btn-background-color: #fc8a11;
   --logo-color: #77ac63;
 
-  font-family: 'DM Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
-  color: var(--main-text-color);
-  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -43,26 +39,36 @@
 }
 
 @font-face {
-  font-family: ‘DM Sans’, sans-serif;
+  font-family: 'DM Sans, sans-serif';
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: local(‘DM Sans’), url(../fonts/DMSans-Regular.woff2) format(woff2),
-    url(../fonts/DMSans-Regular.woff) format(woff);
+  src: url(../fonts/dm-sans-regular.woff2) format(woff2),
+    url(../fonts/dm-sans-regular.woff) format(woff);
 }
 @font-face {
-  font-family: ‘DM Sans’, sans-serif;
+  font-family: 'DM Sans, sans-serif';
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  src: local(‘DM Sans’), url(../fonts/DMSans-Medium.woff2) format(woff2),
-    url(../fonts/DMSans-Medium.woff) format(woff);
+  src: url(../fonts/dm-sans-medium.woff2) format(woff2),
+    url(../fonts/dm-sans-medium.woff) format(woff);
 }
 @font-face {
-  font-family: ‘DM Sans’, sans-serif;
+  font-family: 'DM Sans, sans-serif';
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: local(‘DM Sans’), url(../fonts/DMSans-Bold.woff2) format(woff2),
-    url(../fonts/DMSans-Bold.woff) format(woff);
+  src: url(../fonts/dm-sans-bold.woff2) format(woff2),
+    url(../fonts/dm-sans-bold.woff) format(woff);
+}
+
+body {
+  font-family: 'DM Sans, sans-serif';
+  color: var(--main-text-color);
+  background-color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
 }
