@@ -47,6 +47,7 @@
   border: 1px solid #141414;
   opacity: 0.30000001192092896;
   padding-left: 24px;
+  padding-right: 120px;
 }
 
 .recall-input:focus {
