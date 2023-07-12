@@ -24,6 +24,12 @@
     text-decoration: none;
 }
 
+.logo-link:hover,
+.logo-link:focus {
+    background-color: white;
+    fill: var(--background-dark-color);
+}
+
 .company-icon {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -31,6 +37,7 @@
 .company-icon:hover,
 .company-icon:focus {
     fill: var(--background-dark-color);
+
 }
 
 .logo-name-footer {
@@ -44,6 +51,7 @@
     letter-spacing: -0.04em;
     text-transform: uppercase;
     max-width: 94px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -113,6 +121,11 @@
 
 }
 
+.logo-name-footer:hover,
+.logo-name-footer:focus {
+    color: var(--background-dark-color);
+    background-color: white;
+}
 
 
 
