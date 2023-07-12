@@ -16,6 +16,12 @@
   margin-bottom: 0;
 }
 
+.header {
+  background: #fff;
+  position: sticky;
+  top: 0;
+}
+
 .header-container {
   height: 50px;
   padding-top: 16px;
@@ -63,8 +69,6 @@
   color: var(--main-text-color);
   text-align: center;
   font-size: 14px;
-  font-family: DM Sans;
-  font-style: normal;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.56px;
