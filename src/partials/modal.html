@@ -70,8 +70,8 @@
         <div class="modal-wrap">
             <div class="modal-field">
                 <label class="modal-fiel" for="user-name"></label>
-                <input type="text" id="user-name" class="modal-input" name="user-name"
-                    placeholder="Enter full name..." />
+                <input type="text" id="user-name" class="modal-input" name="user-name" placeholder="Enter full name..."
+                    pattern="[a-z]{1,15}" />
             </div>
             <div class="modal-field">
                 <label class="modal-fiel" for="user-email"></label>
@@ -80,7 +80,8 @@
             </div>
             <div class="modal-field">
                 <label class="modal-fiel" for="user-card"></label>
-                <input type="tel" id="user-card" class="modal-input" name="user-name" placeholder="Enter card.." />
+                <input type="text" id="user-card" class="modal-input" name="user-card" placeholder="Enter card.."
+                    pattern="[\d ]{10,30}" />
             </div>
             <div class="modal-comment-wrap">
                 <label class="modal-fiel" for="user-comment"></label>
