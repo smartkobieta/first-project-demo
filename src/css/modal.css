@@ -279,17 +279,11 @@
   .modal-box {
     max-width: 704px;
     padding: 40px;
-    background-image: url(./img/modal/mod-girl-tabl.png);
+    background-image: url(/img/modal/mod-girl-tabl.png);
     background-repeat: no-repeat;
     background-position: bottom right;
   }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .modal-box {
-      background-image: url(./img/modal/mod-girl-tabl@2x.jpg);
-    }
-  }
+
   .close-modal-button {
     width: 28px;
     height: 28px;
@@ -372,15 +366,9 @@
 @media screen and (min-width: 1280px) {
   .modal-box {
     max-width: 891px;
-    background-image: url(../img/modal/mod-girl-desk.png);
+    background-image: url(/img/modal/mod-girl-desk.png);
   }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .modal-box {
-      background-image: url(../img/modal/mod-girl-desk@2x.jpg);
-    }
-  }
+
   .modal-products-list {
     gap: 20px;
   }
