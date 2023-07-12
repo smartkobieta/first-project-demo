@@ -23,6 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# pull reguests list
-pullreguests-list.txt
+/*pullreguests-list.txt*/
 
+pullreguests-list.txt
