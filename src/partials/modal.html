@@ -1,0 +1,100 @@
+<div class="modal is-hidden" data-modal>
+    <div class="order-container">
+        <h2 class="modal-tittle">YOUR ORDER</h2>
+        <button type="button" class="close-modal-button" data-modal-close>
+            <svg class="close-modal-icon" width="24" height="24">
+                <use href="../img/icons.svg#close-modal"></use>
+            </svg>
+        </button>
+    </div>
+
+    <form>
+        <div class="modal-products">
+            <ul class="modal-products-list">
+                <li class="modal-products-item">
+                    <h3 class="modal-products-tittle">Cabbage Basket</h3>
+                    <p class="modal-products-text">Plant</p>
+                    <picture class="picture">
+                        <source srcset="./img/cabbage@2x.png 2x, ./img/cabbage@1x.png 1x" />
+                        <img class="modal-img" src="./img/cabbage@2x.png" alt="cabbage" />
+                    </picture>
+                    <div class="input-wrap">
+                        <input type="checkbox" class="input visually-hidden" name="cabbage" id="cabbage" checked />
+                        <label for="cabbage" class="modal-label">
+                            <span class="input-checkbox-svg">
+                                <svg width="16px" height="16px" class="modal-products-svg">
+                                    <use href="./img/icons.svg#icon-checked"></use>
+                                </svg>
+                            </span>
+                        </label>
+                    </div>
+                </li>
+                <li class="modal-products-item">
+                    <h3 class="modal-products-tittle">Tomato Basket</h3>
+                    <p class="modal-products-text">Plant</p>
+                    <picture class="picture">
+                        <source srcset="./img/tomato@2x.png 2x, ./img/tomato@1x.png 1x" />
+                        <img class="modal-img" src="./img/tomato@2x.png" alt="tomato" />
+                    </picture>
+                    <div class="input-wrap">
+                        <input type="checkbox" class="input visually-hidden" value="true" id="tomato" name="tomato" />
+                        <label for="tomato" class="modal-label">
+                            <span>
+                                <svg width="16px" height="16px" class="modal-products-svg">
+                                    <use href="./img/icons.svg#icon-checked"></use>
+                                </svg>
+                            </span>
+                        </label>
+                    </div>
+                </li>
+                <li class="modal-products-item">
+                    <h3 class="modal-products-tittle">Vegetables Basket</h3>
+                    <p class="modal-products-text">Plant</p>
+                    <picture class="picture">
+                        <source srcset="./img/vegetables@2x.png 2x, ./img/vegetables@1x.png 1x" />
+                        <img class="modal-img" src="./img/vegetables@2x.png" alt="vegetables" />
+                    </picture>
+                    <div class="input-wrap">
+                        <input type="checkbox" class="input visually-hidden" id="veg-basket" name="veg-basket" />
+                        <label for="veg-basket" class="modal-label">
+                            <span>
+                                <svg width="16px" height="16px" class="modal-products-svg">
+                                    <use href="./img/icons.svg#icon-checked"></use>
+                                </svg>
+                            </span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="modal-wrap">
+            <div class="modal-field">
+                <label class="modal-fiel" for="user-name"></label>
+                <input type="text" id="user-name" class="modal-input" name="user-name"
+                    placeholder="Enter full name..." />
+            </div>
+            <div class="modal-field">
+                <label class="modal-fiel" for="user-email"></label>
+                <input type="email" id="user-email" class="modal-input" name="user-email"
+                    placeholder="Enter email..." />
+            </div>
+            <div class="modal-field">
+                <label class="modal-fiel" for="user-card"></label>
+                <input type="tel" id="user-card" class="modal-input" name="user-name" placeholder="Enter card.." />
+            </div>
+            <div class="modal-comment-wrap">
+                <label class="modal-fiel" for="user-comment"></label>
+                <textarea class="modal-comment" name="user-comment" id="user-comment" rows="5"
+                    placeholder="Enter comments..."></textarea>
+            </div>
+        </div>
+        <button class="modal-btn" type="submit">Submit</button>
+    </form>
+    <div class="image-container">
+        <picture class="picture-girl visually-hidden">
+            <source srcset="./img/img-girl@2x.jpg 2x, ./img/img-girl@1x.jpg 1x" />
+            <img src="./img/img-girl@2x.jpg" alt="img-girl" />
+        </picture>
+    </div>
+
+</div>
