@@ -1,9 +1,11 @@
 .hero {
   background-color: var(--background-dark-color);
+  padding-top: 48px;
+  padding-bottom: 20px;
 }
 .hero-container {
   width: 100%;
-  padding: 50px 20px 20px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 .reviews-list {
@@ -131,7 +133,11 @@
 @media screen and (min-width: 768px) {
   .hero-container {
     max-width: 768px;
-    padding: 66px 32px 32px;
+    padding: 0 32px;
+  }
+  .hero {
+    padding-top: 66px;
+    padding-bottom: 32px;
   }
   .reviews-list {
     margin-bottom: 16px;
@@ -186,7 +192,9 @@
 @media screen and (min-width: 1280px) {
   .hero-container {
     max-width: 1280px;
-    padding: 132px 32px 32px;
+  }
+  .hero {
+    padding-top: 132px;
   }
   .reviews-item {
     width: 70px;
