@@ -1,101 +1,127 @@
-<div class="modal is-hidden" data-modal>
-    <div class="order-container">
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal-box">
         <h2 class="modal-tittle">YOUR ORDER</h2>
         <button type="button" class="close-modal-button data-modal-close" data-modal-close>
             <svg class="close-modal-icon" width="24" height="24">
                 <use href="./img/icons.svg#close-modal"></use>
             </svg>
         </button>
-    </div>
 
-    <form>
-        <div class="modal-products">
-            <ul class="modal-products-list">
-                <li class="modal-products-item">
+        <ul class="modal-products-list list">
+            <li class="modal-products-item modal-checkbox-container">
+                <input type="checkbox" class="input visually-hidden" name="cabbage" id="cabbage" checked />
+                <label for="cabbage" class="modal-label">
+                    <span class="checkbox-span">
+                        <svg width="8" height="8" class="modal-products-svg">
+                            <use href="./img/icons.svg#icon-checked"></use>
+                        </svg>
+                    </span>
+                </label>
+                <div class="modal-content">
                     <h3 class="modal-products-tittle">Cabbage Basket</h3>
                     <p class="modal-products-text">Plant</p>
-                    <picture class="picture">
-                        <source srcset="./img/cabbage@2x.png 2x, ./img/cabbage@1x.png 1x" />
-                        <img class="modal-img" src="./img/cabbage@2x.png" alt="cabbage" />
-                    </picture>
-                    <div class="input-wrap">
-                        <input type="checkbox" class="input visually-hidden" name="cabbage" id="cabbage" checked />
-                        <label for="cabbage" class="modal-label">
-                            <span class="input-checkbox-svg">
-                                <svg width="16px" height="16px" class="modal-products-svg">
-                                    <use href="./img/icons.svg#icon-checked"></use>
-                                </svg>
-                            </span>
-                        </label>
+                    <div class="mod-tumb">
+                        <picture class="picture">
+                            <source srcset="
+                  ./img/modal/mod-desk-cabbage.png    1x,
+                  ./img/modal/mod-desk-cabbage@2x.png 2x
+                " media="(min-width: 1280px)" />
+                            <source srcset="
+                  ./img/modal/mod-tab-cabbage.png    1x,
+                  ./img/modal/mod-tab-cabbage@2x.png 2x
+                " media="(min-width: 768px)" />
+                            <source srcset="
+                  ./img/modal/mod-mob-cabbage.png    1x,
+                  ./img/modal/mod-mob-cabbage@2x.png 2x
+                " media="(max-width: 767px)" />
+                            <img class="modal-img" src="./img/modal/mod-desk-cabbage.png"
+                                alt="cabbage heads in a basket" width="257" height="308" />
+                        </picture>
                     </div>
-                </li>
-                <li class="modal-products-item">
+                </div>
+            </li>
+            <li class="modal-products-item modal-checkbox-container">
+                <input type="checkbox" class="input visually-hidden" value="true" id="tomato" name="tomato" />
+                <label for="tomato" class="modal-label">
+                    <span class="checkbox-span">
+                        <svg width="8" height="8" class="modal-products-svg">
+                            <use href="./img/icons.svg#icon-checked"></use>
+                        </svg>
+                    </span>
+                </label>
+                <div class="modal-content">
                     <h3 class="modal-products-tittle">Tomato Basket</h3>
                     <p class="modal-products-text">Plant</p>
-                    <picture class="picture">
-                        <source srcset="./img/tomato@2x.png 2x, ./img/tomato@1x.png 1x" />
-                        <img class="modal-img" src="./img/tomato@2x.png" alt="tomato" />
-                    </picture>
-                    <div class="input-wrap">
-                        <input type="checkbox" class="input visually-hidden" value="true" id="tomato" name="tomato" />
-                        <label for="tomato" class="modal-label">
-                            <span>
-                                <svg width="16px" height="16px" class="modal-products-svg">
-                                    <use href="./img/icons.svg#icon-checked"></use>
-                                </svg>
-                            </span>
-                        </label>
+                    <div class="mod-tumb">
+                        <picture class="picture">
+                            <source srcset="
+                  ./img/modal/mod-desk-tomato.png    1x,
+                  ./img/modal/mod-desk-tomato@2x.png 2x
+                " media="(min-width: 1280px)" />
+                            <source srcset="
+                  ./img/modal/mod-tab-tomato.png    1x,
+                  ./img/modal/mod-tab-tomato@2x.png 2x
+                " media="(min-width: 768px)" />
+                            <source srcset="
+                  ./img/modal/mod-mob-tomato.png    1x,
+                  ./img/modal/mod-mob-tomato@2x.png 2x
+                " media="(max-width: 767px)" />
+                            <img class="modal-img" src="./img/modal/mod-desk-tomato.png"
+                                alt="large tomatoes on twigs in a basket" width="257" height="308" />
+                        </picture>
                     </div>
-                </li>
-                <li class="modal-products-item">
+                </div>
+            </li>
+            <li class="modal-products-item modal-checkbox-container">
+                <input type="checkbox" class="input visually-hidden" id="veg-basket" name="veg-basket" />
+                <label for="veg-basket" class="modal-label">
+                    <span class="checkbox-span">
+                        <svg width="8" height="8" class="modal-products-svg">
+                            <use href="./img/icons.svg#icon-checked"></use>
+                        </svg>
+                    </span>
+                </label>
+                <div class="modal-content">
                     <h3 class="modal-products-tittle">Vegetables Basket</h3>
                     <p class="modal-products-text">Plant</p>
-                    <picture class="picture">
-                        <source srcset="./img/vegetables@2x.png 2x, ./img/vegetables@1x.png 1x" />
-                        <img class="modal-img" src="./img/vegetables@2x.png" alt="vegetables" />
-                    </picture>
-                    <div class="input-wrap">
-                        <input type="checkbox" class="input visually-hidden" id="veg-basket" name="veg-basket" />
-                        <label for="veg-basket" class="modal-label">
-                            <span>
-                                <svg width="16px" height="16px" class="modal-products-svg">
-                                    <use href="./img/icons.svg#icon-checked"></use>
-                                </svg>
-                            </span>
-                        </label>
+                    <div class="mod-tumb">
+                        <picture class="picture">
+                            <source srcset="
+                  ./img/modal/mod-desk-vegetables.png    1x,
+                  ./img/modal/mod-desk-vegetables@2x.png 2x
+                " media="(min-width: 1280px)" />
+                            <source srcset="
+                  ./img/modal/mod-tab-vegetables.png    1x,
+                  ./img/modal/mod-tab-vegetables@2x.png 2x
+                " media="(min-width: 768px)" />
+                            <source srcset="
+                  ./img/modal/mod-mob-vegetables.png    1x,
+                  ./img/modal/mod-mob-vegetables@2x.png 2x
+                " media="(max-width: 767px)" />
+                            <img class="modal-img" src="./img/modal/mod-desk-vegetables.png"
+                                alt="assorted green vegetables in a basket" width="257" height="308" />
+                        </picture>
                     </div>
-                </li>
-            </ul>
-        </div>
-        <div class="modal-wrap">
-            <div class="modal-field">
-                <label class="modal-fiel" for="user-name"></label>
+                </div>
+            </li>
+        </ul>
+        <!-- Users contacts -->
+        <div class="modal-form-box">
+            <form class="modal-form">
                 <input type="text" id="user-name" class="modal-input" name="user-name" placeholder="Enter full name..."
-                    pattern="[a-z]{1,15}" />
-            </div>
-            <div class="modal-field">
-                <label class="modal-fiel" for="user-email"></label>
-                <input type="email" id="user-email" class="modal-input" name="user-email"
-                    placeholder="Enter email..." />
-            </div>
-            <div class="modal-field">
-                <label class="modal-fiel" for="user-card"></label>
-                <input type="text" id="user-card" class="modal-input" name="user-card" placeholder="Enter card.."
-                    pattern="[\d ]{10,30}" />
-            </div>
-            <div class="modal-comment-wrap">
-                <label class="modal-fiel" for="user-comment"></label>
-                <textarea class="modal-comment" name="user-comment" id="user-comment" rows="5"
-                    placeholder="Enter comments..."></textarea>
-            </div>
-        </div>
-        <button class="modal-btn" type="submit">Submit</button>
-    </form>
-    <div class="image-container">
-        <picture class="picture-girl visually-hidden">
-            <source srcset="./img/img-girl@2x.jpg 2x, ./img/img-girl@1x.jpg 1x" />
-            <img src="./img/img-girl@2x.jpg" alt="img-girl" />
-        </picture>
-    </div>
+                    required pattern="[a-z]{1,15}" />
 
+                <input type="email" id="user-email" class="modal-input" name="user-email" placeholder="Enter email..."
+                    required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+
+                <input type="text" id="user-card" class="modal-input" name="user-card" placeholder="Enter card.."
+                    required pattern="[\d ]{10,30}" />
+
+                <textarea class="modal-input textarea" name="user-comment" id="user-comment" rows="5"
+                    placeholder="Enter comments..."></textarea>
+
+                <button class="modal-btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
 </div>
