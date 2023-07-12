@@ -11,6 +11,7 @@
   visibility: hidden;
   pointer-events: none;
 }
+
 /* ! ***************************************** */
 .mob-menu {
   /* min-width: 428px; */
@@ -29,6 +30,7 @@
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   z-index: 7;
 }
+
 .header-container {
   display: flex;
   align-items: center;
