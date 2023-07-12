@@ -16,7 +16,7 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 1.16;
-    letter-spacing: -0.96px;
+    letter-spacing: -0.04em;
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 20px;
@@ -27,7 +27,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28;
-    letter-spacing: -0.56px;
+    letter-spacing: -0.04em;
     margin: 0;
     margin-bottom: 40px;
     max-width: 290px;
@@ -43,7 +43,7 @@
 
 .recall-input {
     width: 290px;
-    font-family: DM Sans;
+    font-family: DM Sans, sans-serif;
     height: 48px;
     border-radius: 100px;
     border: 1px solid #141414;
@@ -55,12 +55,12 @@
     border-radius: 100px;
     background: #FC8A11;
     color: #FFF;
-    font-family: DM Sans;
+    font-family: DM Sans, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.28;
-    letter-spacing: -0.56px;
+    letter-spacing: -0.04em;
     text-transform: capitalize;
     border: none;
     position: absolute;
@@ -104,7 +104,7 @@
         font-size: 24px;
         font-weight: 500;
         line-height: 1.16;
-        letter-spacing: -0.96px;
+        letter-spacing: -0.04em;
         text-transform: uppercase;
         margin: 0;
         margin-bottom: 20px;
@@ -116,7 +116,7 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 1.28;
-        letter-spacing: -0.56px;
+        letter-spacing: -0.04em;
         margin: 0;
         margin-bottom: 40px;
         max-width: 321px;
@@ -150,7 +150,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 1.28;
-        letter-spacing: -0.56px;
+        letter-spacing: -0.04em;
         text-transform: capitalize;
         border: none;
         position: absolute;
@@ -170,7 +170,9 @@
 }
 
 @media screen and (min-width: 768px) {
-    .recall {}
+    .recall {
+        padding: 0 32px 173px;
+    }
     
     .recall-container {
         max-width: 704px;
@@ -181,7 +183,7 @@
         font-size: 40px;
         font-weight: 500;
         line-height: 1.10;
-        letter-spacing: -1.6px;
+        letter-spacing: -0.04em;
         text-transform: uppercase;
         max-width: 524px;
     }
@@ -191,7 +193,7 @@
         font-size: 18px;
         font-weight: 400;
         line-height: 1.33;
-        letter-spacing: -0.72px;
+        letter-spacing: -0.04em;
         max-width: 499px;
     }
     
@@ -224,11 +226,12 @@
 
 @media screen and (min-width: 1280px) {
     .recall {
+        padding: 0 32px 124px;
     }
     
     .recall-container {
         max-width: 1280px;
-        padding: 0 32px;
+        /* padding: 0 32px; */
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -244,7 +247,7 @@
         font-size: 48px;
         font-weight: 500;
         line-height: 1.04;
-        letter-spacing: -1.92px;
+        letter-spacing: -0.04em;
         text-transform: uppercase;
         margin-top: 99px;
     }
@@ -254,7 +257,7 @@
         font-size: 18px;
         font-weight: 400;
         line-height: 1.33;
-        letter-spacing: -0.72px;
+        letter-spacing: -0.04em;
         text-align: left;
     }
     
@@ -266,9 +269,11 @@
     
     .recall-input {
         width: 355px;
+        letter-spacing: -0.04em;
     }
 
     .recall-btn {
+        letter-spacing: -0.04em;
     }
     
     .recall-img {
