@@ -133,7 +133,7 @@
 
   .recall-input {
     width: 335px;
-    font-family: DM Sans;
+    font-family: DM Sans, sans-serif;
     height: 48px;
     border-radius: 100px;
     border: 1px solid #141414;
@@ -146,7 +146,7 @@
     border-radius: 100px;
     background: #fc8a11;
     color: #fff;
-    font-family: DM Sans;
+    font-family: DM Sans, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -291,9 +291,9 @@
     background: #faf3e7;
     background-image: radial-gradient(
       rgba(161, 196, 135, 0.2) 3.03px,
-      transparent 0
-    );
+      transparent 0);
     background-size: 45.46px 45.2px;
     background-position: -14px -14px;
+    margin-left: auto;
   }
 }
