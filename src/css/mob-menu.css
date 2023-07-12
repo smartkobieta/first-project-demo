@@ -1,7 +1,8 @@
 .header {
   background: #fff;
   /* margin-bottom: 812px; */
-  position: relative;
+  position: sticky;
+  top: 0;
   /* z-index: 1; */
   /* position: fixed;
   width: 100%; */
