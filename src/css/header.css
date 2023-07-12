@@ -16,6 +16,12 @@
   margin-bottom: 0;
 }
 
+.header {
+  background: #fff;
+  position: sticky;
+  top: 0;
+}
+
 .header-container {
   height: 50px;
   padding-top: 16px;

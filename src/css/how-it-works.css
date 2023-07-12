@@ -1,11 +1,16 @@
 .buy-guide {
   width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.buy-guide-container {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
   border-radius: 40px;
   background-color: var(--background-secondary-color);
-  margin: 0 auto;
   background-image: radial-gradient(
     rgba(161, 196, 135, 0.2) 3.03px,
     transparent 0
@@ -16,7 +21,7 @@
 
 .buy-guide-title {
   width: 100%;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 24px;
   font-weight: 500;
   line-height: 1.16;
@@ -40,7 +45,7 @@
 }
 
 .buy-guide-item:last-child {
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .buy-guide-item::before {
@@ -62,7 +67,7 @@
 .buy-guide-text {
   display: inline-block;
   width: 176px;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.04em;
@@ -76,21 +81,33 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 374px) {
+  .steps-container {
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (min-width: 375px) {
   .buy-guide {
-    max-width: 335px;
+    max-width: 375px;
+  }
+
+  .steps-container {
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .buy-guide {
-    max-width: 704px;
-    padding-left: 0;
-    padding-right: 40px;
-    border-radius: 80px;
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .buy-guide-container {
+    padding-left: 0;
+    padding-right: 40px;
+    border-radius: 80px;
     display: flex;
     flex-direction: row-reverse;
     gap: 40px;
@@ -114,6 +131,9 @@
     justify-content: center;
     flex-direction: column;
     gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 0;
   }
 
   .buy-guide-image {
@@ -125,17 +145,13 @@
 
 @media screen and (min-width: 1280px) {
   .buy-guide {
-    max-width: 1216px;
-    padding-left: 80px;
-    padding-right: 80px;
+    max-width: 1280px;
   }
 
   .buy-guide-container {
     gap: 110px;
-  }
-
-  .steps-container {
-    gap: 44px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 
   .buy-guide-title {
