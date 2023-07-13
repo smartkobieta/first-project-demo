@@ -15,6 +15,7 @@
 @import url('./footer.css');
 @import url('./mob-menu.css');
 @import url('./modal.css');
+@import url('./scroll-up.css');
 
 :root {
   --main-text-color: #141414;
