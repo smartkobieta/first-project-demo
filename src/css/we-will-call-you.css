@@ -245,7 +245,7 @@
 
 @media screen and (min-width: 1280px) {
   .recall {
-    padding: 124px 0;
+    padding: 0 0 124px;
   }
 
   .recall-container {
