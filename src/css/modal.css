@@ -57,8 +57,8 @@
   top: 22px;
   right: 20px;
   padding: 0;
-  width: 14px;
-  height: 14px;
+  width: 24px;
+  height: 24px;
   border: none;
   background-color: transparent;
 }
@@ -285,8 +285,8 @@
   }
 
   .close-modal-button {
-    width: 14px;
-    height: 14px;
+    width: 28px;
+    height: 28px;
   }
   .close-modal-icon {
     width: 28px;
