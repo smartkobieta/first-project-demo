@@ -29,7 +29,7 @@
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-  z-index: 4т;
+  z-index: 2;
 }
 
 .mob-menu .is-hidden {
@@ -52,13 +52,7 @@
   padding: 13px 20px;
   left: 0px;
 }
-.box {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  margin: 0 auto;
-  /* background: #fff; */
-}
+
 .overlay {
   position: relative;
   top: 0;
