@@ -1,5 +1,5 @@
 .recall {
-  padding: 0 20px 80px 20px;
+  padding: 0 0 80px;
 }
 .recall-container {
   max-width: 100%;
@@ -48,6 +48,7 @@
   opacity: 0.30000001192092896;
   padding-left: 24px;
   padding-right: 120px;
+  outline: transparent;
 }
 
 .recall-input:focus {
@@ -185,11 +186,12 @@
 
 @media screen and (min-width: 768px) {
   .recall {
-    padding: 0 32px 124px;
+    padding: 0 0 124px;
   }
 
   .recall-container {
     max-width: 704px;
+    padding: 0 32px;
   }
 
   .recall-title {
@@ -243,7 +245,7 @@
 
 @media screen and (min-width: 1280px) {
   .recall {
-    padding: 0 32px 124px;
+    padding: 0 124px;
   }
 
   .recall-container {
