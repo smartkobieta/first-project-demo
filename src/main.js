@@ -1,3 +1,3 @@
 import './js/mobile-menu';
 import './js/modal';
-import './scroll-up';
+import './js/scroll-up';
